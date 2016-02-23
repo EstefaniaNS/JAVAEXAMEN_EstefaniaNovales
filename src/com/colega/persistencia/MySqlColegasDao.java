@@ -164,7 +164,7 @@ public class MySqlColegasDao implements ColegasDao {
 							rs.getInt("id"), 
 							rs.getString("nombre"),
 							rs.getString("ciudad"),
-							rs.getDate("Edad")); 
+							rs.getDate("Fecha")); 
 					resultado.add(colega);
 				}while (rs.next());
 			}
